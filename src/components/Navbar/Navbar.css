@@ -1,0 +1,98 @@
+.navbar-container {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: 0.2s;
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+  }
+  
+  .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .logo-img {
+    width: 40px;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .menu li a {
+    padding: 16px;
+    transition: 0.2s;
+  }
+  
+  .menu li a:hover {
+    color: #ff6b6b;
+  }
+  
+  .dropdown {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    min-width: 150px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .order-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .order-button {
+    background: linear-gradient(to right, #ff6b6b, #ff9a9e);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.2s;
+  }
+  
+  .order-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .cart-icon {
+    font-size: 1.2rem;
+  }
+  
+  .user-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
