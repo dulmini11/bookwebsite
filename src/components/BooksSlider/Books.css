@@ -7,31 +7,6 @@
     text-align: center;
   }
   
-  .header {
-    margin-bottom: 2.5rem;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .header-subtitle {
-    font-size: 0.875rem;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    background-image: linear-gradient(to right, var(--primary), var(--secondary));
-  }
-  
-  .header-title {
-    font-size: 1.875rem;
-    font-weight: bold;
-  }
-  
-  .header-description {
-    font-size: 0.75rem;
-    color: gray;
-  }
-  
   .books-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);

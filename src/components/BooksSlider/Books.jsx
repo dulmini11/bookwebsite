@@ -48,15 +48,6 @@ const Books = () => {
     <>
       <div className="books-container">
         <div className="container">
-          {/* header */}
-          <div className="header">
-            <p className="header-subtitle">Top Books for you</p>
-            <h1 className="header-title">Top Books</h1>
-            <p className="header-description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Perspiciatis delectus architecto error nesciunt,
-            </p>
-          </div>
 
           {/* Body section */}
           <div>
@@ -67,7 +58,6 @@ const Books = () => {
                   <img src={img} alt="" className="book-image" />
                   <div>
                     <h3 className="book-title">{title}</h3>
-                    <p className="book-author">{author}</p>
                     <div className="book-rating">
                       <FaStar className="star-icon" />
                       <span>{rating}</span>
